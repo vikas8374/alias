@@ -1,0 +1,477 @@
+.parent-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.address-block {
+  width: 70%;
+  margin: 0 auto; }
+
+.whats-on-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.upcoming-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.alias-footer-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.music-types {
+  color: white;
+  font-size: 8px;
+  text-transform: uppercase;
+  margin-right: 6px;
+  margin-top: 40%;
+  background-color: black;
+  padding: 2px 5px; }
+
+.upcoming-music-types {
+  color: white;
+  font-size: 8px;
+  text-transform: uppercase;
+  margin-right: 6px;
+  margin-top: 40%;
+  background-color: black;
+  padding: 2px 5px;
+  margin-top: 42%; }
+
+.card {
+  min-width: 227px;
+  margin-right: 15px;
+  min-height: 225px; }
+
+.upcoming-card {
+  min-width: 227px;
+  margin-right: 15px;
+  min-height: 225px; }
+
+.event-summary {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0px; }
+
+.upcoming-summary {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0px; }
+
+.upcoming-location-text {
+  font-size: 12px;
+  color: #605d5d; }
+
+.location-text {
+  font-size: 12px;
+  color: #605d5d; }
+
+.location-icon {
+  font-size: 10px;
+  color: #605d5d; }
+
+.upcoming-location-icon {
+  font-size: 10px;
+  color: #605d5d; }
+
+.date-icon {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-right: 3px; }
+
+.upcoming-date-icon {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-right: 3px; }
+
+.upcoming-date-field {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 30px;
+  text-transform: uppercase; }
+
+.card-date-field {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 30px;
+  text-transform: uppercase; }
+
+.buy-ticket-btn {
+  border: none;
+  background-color: #2c2c93;
+  color: white;
+  font-size: 10px;
+  padding: 3px 5px; }
+
+.upcoming-ticket-btn {
+  border: none;
+  background-color: #2c2c93;
+  color: white;
+  font-size: 10px;
+  padding: 3px 5px; }
+
+.card-footer {
+  border-top: 1px dashed silver;
+  margin-top: 0px;
+  background-color: white; }
+
+.view-button {
+  background: transparent;
+  border: none;
+  border: 0.5px solid #0000006b;
+  padding: 4px 20px;
+  color: black;
+  font-weight: 600; }
+
+.upcoming-view-button {
+  background: transparent;
+  border: none;
+  border: 0.5px solid #0000006b;
+  padding: 4px 20px;
+  color: black;
+  font-weight: 600; }
+
+.whats-on-header {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px; }
+
+.whats-hot-header {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px; }
+
+.share-icon {
+  font-size: 10px;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 22px;
+  color: #ffffff7a;
+  border: 1px solid #ffffff7a;
+  padding: 0px 6px;
+  background-color: #3ab9b9; }
+
+.upcoming-share-icon {
+  font-size: 10px;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 22px;
+  color: #ffffff7a;
+  border: 1px solid #ffffff7a;
+  padding: 0px 6px;
+  background-color: #3ab9b9; }
+
+.social-icon {
+  padding: 0px 6px;
+  border-radius: 50%;
+  line-height: 20px; }
+
+.arrow-prev {
+  position: relative;
+  color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 23px;
+  padding: 0px 4px;
+  right: 100px; }
+
+.arrow-next {
+  position: relative;
+  color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 23px;
+  padding: 0px 4px;
+  left: 100px; }
+
+.wrapper {
+  background-image: url("./sass-images/alias-banner-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 470px; }
+  .wrapper .header {
+    background-color: #15151cd1; }
+  .wrapper .alias-logo {
+    font-family: cursive;
+    color: white;
+    margin-top: 12px; }
+  .wrapper .navbar {
+    float: right; }
+  .wrapper .alias-summery {
+    color: white; }
+  .wrapper .alias-navbar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+    float: right;
+    font-size: 13px; }
+  .wrapper .banner-social-icons {
+    position: absolute;
+    top: 23%;
+    right: 2px;
+    display: flex;
+    flex-direction: column; }
+  .wrapper .social-icon {
+    margin: 5px 0px;
+    width: 22px;
+    font-size: 10px;
+    color: red;
+    border: 1px solid red; }
+  .wrapper .header-nav-item {
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none; }
+  .wrapper .nav-item {
+    color: red; }
+  .wrapper .alias-banner-part {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px; }
+  .wrapper .banner-header {
+    color: white;
+    font-weight: 700;
+    padding-bottom: 25px; }
+  .wrapper .banner-summary {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0px; }
+  .wrapper .buy-button-block {
+    text-align: center; }
+  .wrapper .buy-button {
+    border: none;
+    color: white;
+    background-color: #14b8e9;
+    padding: 7px 26px;
+    font-size: 12px;
+    border-radius: 2px; }
+  .wrapper .address-bg {
+    background-color: #15151cd1;
+    margin-top: 16%;
+    padding: 11px 4px;
+    border-bottom: 4px solid #bf1947; }
+  .wrapper .address-fields {
+    color: white;
+    position: absolute;
+    top: 0px;
+    text-indent: 20px;
+    align-items: center;
+    background-color: #8080804a; }
+  .wrapper form {
+    position: relative;
+    padding: 1px 0px; }
+  .wrapper option {
+    color: black; }
+  .wrapper .dropdown-icon {
+    color: white;
+    float: right;
+    margin-right: 8px;
+    margin-top: 7px;
+    font-size: 10px; }
+  .wrapper .date-picker {
+    color: white;
+    font-size: 12px;
+    text-indent: 5px;
+    background-color: #8080804a;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px; }
+  .wrapper .genric-icon {
+    color: white;
+    padding: 0px 4px;
+    position: relative;
+    top: 2px;
+    left: 3px; }
+  .wrapper .date-icon {
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+    color: white;
+    font-size: 13px;
+    margin-right: 1px; }
+  .wrapper .calender-icon {
+    position: absolute;
+    right: 4px;
+    top: 9px;
+    color: white;
+    margin-right: 0px; }
+  .wrapper .address-icon {
+    color: white;
+    font-size: 13px;
+    text-indent: 5px;
+    margin-top: 9px; }
+  .wrapper .search-icon {
+    color: rgba(253, 249, 249, 0.774);
+    padding-top: 10px; }
+
+.whats-on-bg {
+  background-color: #d8d5d5;
+  position: relative; }
+  .whats-on-bg .whats-on-content {
+    padding: 40px 0px; }
+  .whats-on-bg .card-img-top {
+    max-height: 115px; }
+  .whats-on-bg .up-arrow {
+    position: absolute;
+    color: white;
+    right: 23px;
+    top: 50px;
+    border-radius: 50%;
+    border: 1px solid #3b2983;
+    padding: 4px 5px;
+    background-color: #3b2983;
+    font-size: 11px; }
+  .whats-on-bg .share-icon {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    color: white; }
+  .whats-on-bg .card-date-field {
+    margin-right: 43px;
+    font-size: 11px;
+    margin-top: 2px; }
+  .whats-on-bg .view-button-block {
+    text-align: center;
+    padding-bottom: 30px; }
+  .whats-on-bg .card-img-top-second-slide {
+    max-height: 137px;
+    max-width: 286px; }
+
+.upcoming-bg {
+  background-image: url("./sass-images/upcoming-bg-image.jpg");
+  background-size: cover;
+  min-height: 470px; }
+  .upcoming-bg .upcoming-content {
+    padding: 40px 0px; }
+  .upcoming-bg .upcoming-header {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: white; }
+  .upcoming-bg .upcoming-card-img {
+    max-height: 152px; }
+  .upcoming-bg .upcoming-card {
+    min-width: 306px;
+    border: none; }
+  .upcoming-bg .upcoming-ticket-btn {
+    position: relative;
+    left: 33%; }
+  .upcoming-bg .upcoming-view-button-block {
+    text-align: center;
+    padding-bottom: 30px; }
+  .upcoming-bg .upcoming-view-button {
+    border: 0.5px solid #f1eded7d;
+    color: white; }
+  .upcoming-bg .upcoming-share-icon {
+    position: absolute;
+    right: 4px;
+    color: white;
+    top: 6px; }
+
+.whats-hot-bg {
+  background-color: #d8d5d5; }
+  .whats-hot-bg .whats-hot-content {
+    padding: 40px 0px; }
+  .whats-hot-bg .whats-hot-button-block {
+    text-align: center;
+    padding-bottom: 30px; }
+
+.host-bg {
+  background-image: url("./sass-images/host-image.jpg");
+  background-size: cover;
+  min-height: 200px; }
+  .host-bg .host-header {
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 40px 0px; }
+  .host-bg .get-in-button-block {
+    text-align: center;
+    padding-bottom: 30px; }
+  .host-bg .get-in-touch-button {
+    border: 0.5px solid #f1eded7d;
+    color: white;
+    background: transparent;
+    padding: 4px 15px; }
+
+.alias-footer-bg {
+  background-color: #0f1629;
+  position: relative; }
+  .alias-footer-bg .alias-footer-content {
+    padding-top: 30px;
+    border-bottom: 1px solid #ffffff7a; }
+  .alias-footer-bg .alias-footer-logo {
+    color: white; }
+  .alias-footer-bg .copy-right {
+    text-align: center;
+    color: white; }
+  .alias-footer-bg .footer-navbar {
+    list-style-type: none;
+    font-size: 14px; }
+  .alias-footer-bg .footer-nav-item {
+    text-decoration: none;
+    color: white; }
+  .alias-footer-bg .footer-social-icons {
+    color: #d8d5d5; }
+  .alias-footer-bg .contact-field {
+    float: right; }
+  .alias-footer-bg .social-icon {
+    font-size: 10px;
+    width: 22px;
+    color: #ffffff7a;
+    border: 1px solid #ffffff7a; }
+  .alias-footer-bg .contact-us {
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-top: 7px; }
+  .alias-footer-bg .chat-icon {
+    color: #ff0047ad;
+    font-size: 23px;
+    position: absolute;
+    right: 16px;
+    bottom: 8px; }
+  .alias-footer-bg .copy-right-block {
+    font-size: 12px; }
+  .alias-footer-bg .copyright-text {
+    padding: 8px 0px;
+    color: #ffffff7a;
+    margin-bottom: 0px;
+    text-align: center; }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .wrapper .menu {
+    align-items: start; }
+
+  .upcoming-bg .upcoming-ticket-btn {
+    position: relative;
+    left: 33%; } }
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .wrapper .menu {
+    align-items: start; }
+
+  .upcoming-bg .upcoming-ticket-btn {
+    position: relative;
+    left: 33%; } }
+@media screen and (max-width: 320px) {
+  .wrapper .menu {
+    align-items: start; }
+
+  .upcoming-bg .upcoming-ticket-btn {
+    position: relative;
+    left: 33%; } }
+@media screen and (max-width: 768px) {
+  .wrapper .menu {
+    align-items: start; }
+
+  .upcoming-bg .upcoming-ticket-btn {
+    position: relative;
+    left: 33%; } }
+
+/*# sourceMappingURL=alias.css.map */

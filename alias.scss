@@ -1,0 +1,460 @@
+@import "variables";
+@import "mixin";
+
+.wrapper {
+    background-image: url("./sass-images/alias-banner-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: $aliasbgHeight;
+
+    .header {
+        background-color: #15151cd1;
+    }
+
+    .alias-logo {
+        font-family: $logoFont;
+        color: $textColor;
+        margin-top: 12px;
+    }
+
+    .navbar {
+        float: right;
+    }
+
+    .alias-summery {
+        color: $textColor;
+    }
+
+    .alias-navbar {
+        display: flex;
+        list-style-type: none;
+        align-items: $itemsCenter;
+        height: 50px;
+        float: right;
+        font-size: 13px;
+
+
+    }
+
+    .banner-social-icons {
+        position: $absoluteItem;
+        top: 23%;
+        right: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icon {
+        margin: 5px 0px;
+        width: 22px;
+        // color: $bannerIconColor;
+        // border: 1px solid $bannerIconColor;
+        font-size: 10px;
+        color: $bannerIconDanger;
+        border: 1px solid $bannerIconDanger;
+    }
+
+    .header-nav-item {
+        padding: 0px 10px;
+        color: $textColor;
+        text-decoration: none;
+
+    }
+
+    .nav-item {
+        color: $bannerIconDanger;
+    }
+
+
+    .alias-banner-part {
+        width: 50%;
+        margin: 0 auto;
+        position: $relativeItem;
+        top: 100px;
+    }
+
+    .banner-header {
+        color: $textColor;
+        font-weight: 700;
+        // font-size: 38px;
+        padding-bottom: 25px;
+    }
+
+    .banner-summary {
+        color: $textColor;
+        font-size: 14px;
+        margin-bottom: 0px;
+
+    }
+
+    .buy-button-block {
+        text-align: center;
+    }
+
+    .buy-button {
+        border: none;
+        color: $textColor;
+        background-color: #14b8e9;
+        padding: 7px 26px;
+        font-size: $defaultTextsize;
+        border-radius: 2px;
+    }
+
+    .address-bg {
+        background-color: #15151cd1;
+        margin-top: 16%;
+        padding: 11px 4px;
+        border-bottom: 4px solid #bf1947;
+    }
+
+    .address-fields {
+        color: $textColor;
+        position: $absoluteItem;
+        top: 0px;
+        text-indent: $textSpace;
+        align-items: center;
+        background-color: #8080804a;
+    }
+
+    form {
+        position: $relativeItem;
+        padding: 1px 0px;
+
+    }
+
+    option {
+        color: black;
+    }
+
+    .dropdown-icon {
+        color: $textColor;
+        float: right;
+        margin-right: 8px;
+        margin-top: 7px;
+        font-size: 10px;
+    }
+
+    .date-picker {
+        color: white;
+        // padding: 4px 0px;
+        font-size: 12px;
+        text-indent: 5px;
+        background-color: #8080804a;
+        padding-bottom: 4px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .genric-icon {
+        color: white;
+        // position: absolute;
+        // top: 4px;
+        // left: 4px;
+        padding: 0px 4px;
+        position: relative;
+        top: 2px;
+        left: 3px;
+    }
+
+    .date-icon {
+        position: $absoluteItem;
+        right: 0px;
+        bottom: 8px;
+        color: white;
+        font-size: 13px;
+        margin-right: 1px;
+    }
+
+    .calender-icon {
+        position: absolute;
+        right: 4px;
+        top: 9px;
+        color: white;
+        margin-right: 0px;
+    }
+
+    .address-icon {
+        color: white;
+        font-size: 13px;
+        text-indent: 5px;
+        margin-top: 9px;
+    }
+
+    .search-icon {
+        color: rgba(253, 249, 249, 0.774);
+        padding-top: 10px;
+    }
+}
+
+// second-section
+
+.whats-on-bg {
+    background-color: rgb(216, 213, 213);
+    position: $relativeItem;
+
+    .whats-on-content {
+        padding: 40px 0px;
+    }
+
+
+    .card-img-top {
+        max-height: 115px;
+        // max-width: 233px;
+    }
+
+    .up-arrow {
+        position: absolute;
+        color: $textColor;
+        right: 23px;
+        top: 50px;
+        border-radius: 50%;
+        border: 1px solid $upArrowBg;
+        padding: 4px 5px;
+        background-color: $upArrowBg;
+        font-size: 11px;
+    }
+
+    .share-icon {
+        position: $absoluteItem;
+        right: 3px;
+        top: 3px;
+        color: $textColor;
+
+    }
+
+    .card-date-field {
+        margin-right: 43px;
+        font-size: 11px;
+        margin-top: 2px;
+    }
+
+
+    .view-button-block {
+        text-align: center;
+        padding-bottom: $paddingMedium;
+    }
+
+    .card-img-top-second-slide {
+        max-height: $secondSlideHeight;
+        max-width: $secondSlideWidth;
+    }
+
+}
+
+// third-section
+
+.upcoming-bg {
+    background-image: url("./sass-images/upcoming-bg-image.jpg");
+    background-size: cover;
+    min-height: $aliasbgHeight;
+
+    .upcoming-content {
+        padding: 40px 0px;
+    }
+
+    .upcoming-header {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: $textColor;
+    }
+
+    .upcoming-card-img {
+        max-height: 152px;
+    }
+
+    .upcoming-card {
+
+        min-width: 306px;
+        border: none;
+
+    }
+
+    .upcoming-ticket-btn {
+        position: $relativeItem;
+        left: 33%;
+    }
+
+
+
+    .upcoming-view-button-block {
+        text-align: center;
+        padding-bottom: $paddingMedium;
+    }
+
+    .upcoming-view-button {
+        border: 0.5px solid #f1eded7d;
+        color: $textColor;
+    }
+
+
+    .upcoming-share-icon {
+        position: $absoluteItem;
+        right: 4px;
+        color: $textColor;
+        top: 6px;
+    }
+
+}
+
+// whats-hot-part
+
+.whats-hot-bg {
+    background-color: rgb(216, 213, 213);
+
+    .whats-hot-content {
+        padding: 40px 0px;
+    }
+
+    .whats-hot-button-block {
+        text-align: center;
+        padding-bottom: $paddingMedium;
+    }
+}
+
+// host-part
+
+.host-bg {
+    background-image: url("./sass-images/host-image.jpg");
+    background-size: cover;
+    min-height: 200px;
+
+    .host-header {
+        margin-bottom: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $textColor;
+        padding: 40px 0px;
+    }
+
+    .get-in-button-block {
+        text-align: center;
+        padding-bottom: $paddingMedium;
+    }
+
+    .get-in-touch-button {
+        border: 0.5px solid #f1eded7d;
+        color: $textColor;
+        background: transparent;
+        padding: 4px 15px;
+    }
+}
+
+// footer-part
+
+.alias-footer-bg {
+    background-color: rgb(15, 22, 41);
+    position: $relativeItem;
+
+    .alias-footer-content {
+        padding-top: $paddingMedium;
+        border-bottom: 1px solid $footerIconColor;
+    }
+
+    .alias-footer-logo {
+        color: $textColor;
+    }
+
+    .copy-right {
+        text-align: center;
+        color: $textColor;
+    }
+
+    .footer-navbar {
+        list-style-type: none;
+        font-size: 14px;
+    }
+
+    .footer-nav-item {
+        text-decoration: none;
+        color: $textColor;
+    }
+
+    .footer-social-icons {
+        color: rgb(216, 213, 213);
+    }
+
+    .contact-field {
+        float: right;
+    }
+
+    .social-icon {
+        font-size: 10px;
+        width: 22px;
+        color: $footerIconColor;
+        border: 1px solid $footerIconColor;
+    }
+
+    .contact-us {
+        font-size: 13px;
+        color: $textColor;
+        float: right;
+        margin-top: 7px;
+    }
+
+    .chat-icon {
+        color: #ff0047ad;
+        font-size: 23px;
+        position: absolute;
+        right: 16px;
+        bottom: 8px;
+    }
+
+    .copy-right-block {
+        font-size: $defaultTextsize;
+    }
+
+    .copyright-text {
+        padding: 8px 0px;
+        color: $footerIconColor;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
+
+// Rseponsive code for Tablet
+@media screen and (min-width:425px) and (max-width:767px) {
+    .wrapper .menu {
+        align-items: start;
+    }
+
+    .upcoming-bg .upcoming-ticket-btn {
+        position: relative;
+        left: 33%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .wrapper .menu {
+        align-items: start;
+    }
+
+    .upcoming-bg .upcoming-ticket-btn {
+        position: relative;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .wrapper .menu {
+        align-items: start;
+    }
+
+    .upcoming-bg .upcoming-ticket-btn {
+        position: relative;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wrapper .menu {
+        align-items: start;
+    }
+
+    .upcoming-bg .upcoming-ticket-btn {
+        position: relative;
+        left: 33%;
+    }
+}

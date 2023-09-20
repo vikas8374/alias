@@ -1,0 +1,444 @@
+/* Responsive for tablet */
+
+@media screen and (max-width:768px) {
+
+    .navbar {
+        justify-content: end;
+    }
+
+    .music-types {
+        margin-top: 36%;
+    }
+
+    .responsive-card {
+        max-width: 110px;
+        margin-top: 10px;
+        margin-left: 25%;
+    }
+
+    li {
+        padding: 6px 0px;
+    }
+
+    .buy-ticket-btn {
+        margin-left: 23px;
+    }
+
+    .card {
+        min-width: 254px;
+    }
+
+    .wrapper {
+        min-height: 413px;
+    }
+    .menu{
+    
+    }
+    .navbar-toggler {
+        color: white;
+        border: 1px solid black;
+        padding: 7px 11px;
+    }
+
+    .parent-content {
+        max-height: 52%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .whats-hot-images {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .alias-banner-part {
+        padding-bottom: 7%;
+    }
+
+    .alias-navbar {
+        margin-top: 10px;
+    }
+
+    .banner-social-icons {
+        margin-top: 40px;
+    }
+
+    .upcoming-content,
+    .address-block {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .whats-hot-image-one,
+    .whats-hot-image-three,
+    .whats-hot-image-four,
+    .whats-hot-image-five {
+        max-width: 243px;
+    }
+
+    .whats-hot-image-two {
+        max-width: 488px;
+    }
+
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+    .logo{
+        text-align: center;
+    }
+}
+
+/* Responsive for large mobile  */
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    .navbar-toggler {
+        position: relative;
+        bottom: 37px;
+    }
+
+    .alias-banner-part {
+        min-width: 80%;
+    }
+
+    form {
+        margin: 10px 0px;
+    }
+    .menu{
+    
+    }
+    .genric-icon {
+        padding: 0px 4px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .buy-button {
+        padding: 3px 14px;
+    }
+
+    .buy-button-block {
+        margin-bottom: 20px;
+    }
+
+    .whats-hot-image-two {
+        max-width: 243px;
+    }
+
+    .parent-content {
+        max-height: 52%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .arrow-next {
+        left: 39px;
+    }
+
+    .arrow-prev {
+        right: 33px;
+    }
+
+    .banner-social-icons {
+        margin-top: 48px;
+    }
+
+    .card {
+        min-width: 283px;
+        margin-bottom: 10px;
+        margin-left: 11px;
+    }
+
+    .music-types {
+        margin-top: 32%;
+    }
+
+    .buy-ticket-btn {
+        margin-left: 45px;
+    }
+
+    .upcoming-card-img {
+        min-height: 161px;
+
+    }
+
+    .responsive-card {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+
+    .whats-hot-image-one,
+    .whats-hot-image-three,
+    .whats-hot-image-four,
+    .whats-hot-image-five {
+        max-width: 393px;
+        margin-bottom: 6px;
+    }
+
+    .whats-hot-image-two {
+        max-width: 393px;
+    }
+.contact-field{
+    margin-right: 33%;
+}
+.footer-navbar{
+    margin-bottom: 0px;
+}
+}
+
+/* responsive form medium mobile */
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .navbar-toggler {
+        position: relative;
+        bottom: 37px;
+    }
+
+    form {
+        margin: 10px 0px;
+    }
+    .menu{
+    
+    }
+    .genric-icon {
+        padding: 0px 4px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .buy-button {
+        padding: 3px 14px;
+    }
+
+    .buy-button-block {
+        margin-bottom: 20px;
+    }
+
+    .alias-banner-part {
+        min-width: 80%;
+    }
+
+    .banner-header {
+        font-size: 24px;
+    }
+
+    .parent-content {
+        max-height: 52%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .arrow-next {
+        position: relative;
+        color: black;
+        border-radius: 50%;
+        border: 1px solid black;
+        font-size: 23px;
+        padding: 0px 4px;
+        left: 39px;
+    }
+
+    .arrow-prev {
+        position: relative;
+        color: black;
+        border-radius: 50%;
+        border: 1px solid black;
+        font-size: 23px;
+        padding: 0px 4px;
+        right: 38px;
+    }
+
+    .banner-social-icons {
+        margin-top: 48px;
+    }
+
+    .share-icon {
+        margin-right: 19px;
+    }
+
+    .social-icon {
+        color: #f109287a;
+        border: 1px solid #f109287a;
+    }
+
+    .card {
+        min-width: 283px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .music-types {
+        margin-top: 32%;
+    }
+
+    .buy-ticket-btn {
+        margin-left: 45px;
+    }
+
+    .upcoming-card-img {
+        min-height: 161px;
+
+    }
+
+    .responsive-card {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .whats-hot-image-one,
+    .whats-hot-image-three,
+    .whats-hot-image-four,
+    .whats-hot-image-five {
+        max-width: 344px;
+        margin-bottom: 6px;
+    }
+
+    .whats-hot-image-two {
+        max-width: 344px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .contact-field {
+        margin-right: 30%;
+    }
+    .footer-navbar{
+        margin-bottom: 0px;
+    }
+}
+
+
+/* Responsive for small mobile devices */
+
+@media screen and (max-width:320px) {
+    .navbar-toggler {
+        position: relative;
+        bottom: 37px;
+    }
+
+    .banner-header {
+        font-size: 21px;
+    }
+
+
+    form {
+        margin: 10px 0px;
+    }
+
+    .genric-icon {
+        padding: 0px 4px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .buy-button {
+        padding: 3px 14px;
+    }
+
+    .buy-button-block {
+        margin-bottom: 36px;
+    }
+
+    .alias-navbar {
+        align-items:none;
+    }
+.menu{
+
+}
+    .parent-content {
+        max-height: 52%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .arrow-next {
+        position: relative;
+        color: black;
+        border-radius: 50%;
+        border: 1px solid black;
+        font-size: 23px;
+        padding: 0px 4px;
+        left: 39px;
+    }
+
+    .arrow-prev {
+        position: relative;
+        color: black;
+        border-radius: 50%;
+        border: 1px solid black;
+        font-size: 23px;
+        padding: 0px 4px;
+        right: 38px;
+    }
+
+    .banner-social-icons {
+        margin-top: 48px;
+    }
+
+    .share-icon {
+        margin-right: 19px;
+    }
+
+    .social-icon {
+        color: #f109287a;
+        border: 1px solid #f109287a;
+    }
+
+    .card {
+        min-width: 244px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .card-date-field {
+        margin-right: 14px;
+        font-size: 10px;
+        margin-top: 3px;
+    }
+
+    .music-types {
+        margin-top: 32%;
+    }
+
+    .buy-ticket-btn {
+        margin-left: 2px;
+    }
+
+    .upcoming-card-img {
+        min-height: 161px;
+
+    }
+
+    .upcoming-card {
+        position: relative;
+        right: 25px;
+    }
+
+    .responsive-card {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .whats-hot-image-one,
+    .whats-hot-image-three,
+    .whats-hot-image-four,
+    .whats-hot-image-five {
+        max-width: 291px;
+        margin-bottom: 6px;
+    }
+
+    .whats-hot-image-two {
+        max-width: 291px;
+    }
+    .footer-navbar{
+        margin-bottom: 0px;
+    }
+}
