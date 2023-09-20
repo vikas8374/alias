@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alias-template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="alias.css">
+    <link rel="stylesheet" href="media-queries-file.css">
+</head>
+
+<body>
+    <!-- Alias-header-part -->
+    <div class="wrapper">
+        <header class="header">
+            <div class="parent-content">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-2">
+                        <div class="alias-logo">
+                            <img src="./sass-images/alias-logo-one.png" alt="alias-logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-10">
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarContent">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarContent">
+                                <ul class="alias-navbar navbar-nav mr-auto menu">
+                                    <li><a href="#" class="nav-item active  px-2">Hub</a></li>
+                                    <li><a href="#" class="header-nav-item">Whats on</a></li>
+                                    <li><a href="#" class="header-nav-item">About the Mob</a></li>
+                                    <li><a href="#" class="header-nav-item">Contact us </a></li>
+                                    <li><a href="#" class="header-nav-item">Your Alias</a><i
+                                            class="bi bi-lock text-white"></i></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Banner-part-social-icons -->
+        <div class="banner-social-icons">
+            <i class="fa-brands fa-facebook-f social-icon"></i>
+            <i class="fa-brands fa-instagram social-icon"></i>
+            <i class="fa-brands fa-linkedin-in social-icon"></i>
+            <i class="fa-brands fa-twitter social-icon"></i>
+        </div>
+        <div class="alias-banner-part">
+            <p class="banner-summary">22ODh-Friday, 11 of january</p>
+            <h1 class="banner-header">Friday - Reign Showclub</h1>
+            <div class="buy-button-block">
+                <button type="button" class="buy-button">Book Now</button>
+            </div>
+        </div>
+        <div class="address-bg">
+            <div class="address-block">
+                <!-- <div class="address-info"> -->
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4">
+                        <form>
+                            <i class="bi bi-alarm-fill input-icon genric-icon"></i><select
+                                class="address-fields form-control form-control-sm ">
+                                <option selected>Genric</option>
+                                <option>Rock</option>
+                                <option>Hiphop</option>
+                                <option>Genric</option>
+                            </select>
+                            <i class="fa fa-sort-down dropdown-icon"></i>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <form>
+                            <i class='fas fa-city address-icon'></i><select
+                                class="address-fields form-control form-control-sm ">
+                                <option>Select city</option>
+                                <option>karimnagar</option>
+                                <option>hyderabad</option>
+                            </select>
+                            <i class="fa fa-sort-down dropdown-icon"></i>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 col-sm-3">
+                        <form>
+                            <i class="fa-solid fa-calendar-days calender-icon"></i><input type="date"
+                                class="form-control date-picker">
+
+                        </form>
+                    </div>
+                    <div class="col-lg-1 col-sm-1">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Whats-on-part -->
+
+    <div class="whats-on-bg">
+        <div class="whats-on-content">
+            <h4 class="whats-on-header">whats on</h4>
+            <i class="fa-solid fa-chevron-up up-arrow"></i>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-one.webp">
+                                <div class="card-img-overlay ">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i><span
+                                            class="card-date-field"> Jan 08 2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-two.jpeg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i><span
+                                            class="card-date-field">Jan 08 2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-three.jpg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i> <span
+                                            class="card-date-field">Jan 08
+                                            2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img class="card-img-top " src="./sass-images/whatson-card-four.jpg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon me-2"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i><span
+                                            class="card-date-field">Jan 08
+                                            2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-three.jpg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i> <span
+                                            class="card-date-field">Jan 08
+                                            2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-four.jpg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i><span
+                                            class="card-date-field">Jan 08
+                                            2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-two.jpeg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i><span
+                                            class="card-date-field">Jan 0B
+                                            2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="./sass-images/whatson-card-two.jpeg">
+                                <div class="card-img-overlay">
+                                    <div class="share-icon-block">
+                                        <i class="fa-solid fa-share-nodes share-icon me-2"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="music-types">electro</p>
+                                        <p class="music-types">hiphop</p>
+                                        <p class="music-types">recreation</p>
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                    <p class="event-summary">
+                                        Club 8090 throughback Christmas Party 2018
+                                    </p>
+                                    <i class="fa-solid fa-location-dot location-icon"></i><span class="location-text">
+                                        Nomas Club Location</span>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex">
+                                        <i class="fa-solid fa-calendar-week date-icon"></i><span
+                                            class="card-date-field">Jan 08
+                                            2019</span>
+                                        <button type="button" class="buy-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                            Buy-Ticket</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="arrows">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span><i class="bi bi-arrow-left arrow-prev"></i></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span><i class="bi bi-arrow-right arrow-next"></i></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="view-button-block">
+            <button type="button" class="view-button">View-all</button>
+        </div>
+    </div>
+
+
+    <!-- upcoming-part -->
+
+    <div class="upcoming-bg">
+        <div class="upcoming-content">
+            <h4 class="upcoming-header">upcoming</h4>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card upcoming-card">
+                        <img class="upcoming-card-img" src="./sass-images/upcoming-card-one.webp">
+                        <div class="card-img-overlay">
+                            <div class="upcoming-share-icon-block">
+                                <i class="fa-solid fa-share-nodes upcoming-share-icon"></i>
+                            </div>
+                            <div class="d-flex">
+                                <p class="upcoming-music-types">electro</p>
+                                <p class="upcoming-music-types">hiphop</p>
+                                <p class="upcoming-music-types">recreation</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="upcoming-summary">
+                                Club 8090 throughback Christmas Party 2018
+                            </p>
+                            <i class="fa-solid fa-location-dot upcoming-location-icon"></i><span
+                                class="upcoming-location-text">
+                                Nomas Club Location</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-calendar-week upcoming-date-icon"></i><span
+                                    class="upcoming-date-field"> Jan 08
+                                    2019</span>
+                                <button type="button" class="upcoming-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                    Buy-Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card upcoming-card">
+                        <img class="upcoming-card-img" src="./sass-images/upcoming-card-two.jpeg">
+                        <div class="card-img-overlay">
+                            <div class="upcoming-share-icon-block">
+                                <i class="fa-solid fa-share-nodes upcoming-share-icon"></i>
+                            </div>
+                            <div class="d-flex">
+                                <p class="upcoming-music-types">electro</p>
+                                <p class="upcoming-music-types">hiphop</p>
+                                <p class="upcoming-music-types">recreation</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="upcoming-summary">
+                                Club 8090 throughback Christmas Party 2018
+                            </p>
+                            <i class="fa-solid fa-location-dot upcoming-location-icon"></i><span
+                                class="upcoming-location-text">
+                                Nomas Club Location</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-calendar-week upcoming-date-icon"></i><span
+                                    class="upcoming-date-field"> Jan 08
+                                    2019</span>
+                                <button type="button" class="upcoming-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                    Buy-Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card upcoming-card responsive-card">
+                        <img class="upcoming-card-img" src="./sass-images/upcoming-card-three.jpg">
+                        <div class="card-img-overlay">
+                            <div class="upcoming-share-icon-block">
+                                <i class="fa-solid fa-share-nodes upcoming-share-icon"></i>
+                            </div>
+                            <div class="d-flex">
+                                <p class="upcoming-music-types">electro</p>
+                                <p class="upcoming-music-types">hiphop</p>
+                                <p class="upcoming-music-types">recreation</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="upcoming-summary">
+                                Club 8090 throughback Christmas Party 2018
+                            </p>
+                            <i class="fa-solid fa-location-dot upcoming-location-icon"></i><span
+                                class="upcoming-location-text">
+                                Nomas Club Location</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-calendar-week upcoming-date-icon"></i><span
+                                    class="upcoming-date-field"> Jan 08
+                                    2019</span>
+                                <button type="button" class="upcoming-ticket-btn"><i class="fa-solid fa-ticket"></i>
+                                    Buy-Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="upcoming-view-button-block">
+            <button type="button" class="upcoming-view-button">View-all</button>
+        </div>
+    </div>
+
+    <!-- whats-hot-part -->
+
+    <div class="whats-hot-bg">
+        <div class="whats-hot-content">
+            <h4 class="whats-hot-header">whats hot</h4>
+            <div class="pb-2">
+                <div class="row mx-1 me-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="./sass-images/whats-hot-img-one.png" alt="whats-hot-one" class="whats-hot-image-one">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <img src="./sass-images/whats-hot-img-two.png" alt="whats-hot-two" class="whats-hot-image-two">
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-1 me-4">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="./sass-images/whats-hot-img-three.png" alt="whats-hot-three"
+                        class="whats-hot-image-three">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="./sass-images/whats-hot-img-four.png" alt="whats-hot-four" class="whats-hot-image-four">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="./sass-images/whats-hot-img-five.png" alt="whats-hot-five" class="whats-hot-image-five">
+                </div>
+            </div>
+        </div>
+        <div class="whats-hot-button-block">
+            <button type="button" class="view-button">View-all</button>
+        </div>
+    </div>
+    <!-- host-part -->
+    <div class="host-bg">
+        <h4 class="host-header">host your event turn your passion into business</h4>
+        <div class="get-in-button-block">
+            <button type="button" class="get-in-touch-button">Get in touch</button>
+        </div>
+    </div>
+
+    <!-- footer-part -->
+    <footer>
+        <div class="alias-footer-bg">
+            <div class="alias-footer-content">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12 logo">
+                        <img src="./sass-images/alias-footer-logo.png" alt="footer-logo" class="footer-logo">
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <nav>
+                            <ul class="footer-navbar">
+                                <li><a href="#" class="footer-nav-item">Hub</a></li>
+                                <li><a href="#" class="footer-nav-item">whatson</a></li>
+                                <li><a href="#" class="footer-nav-item">About the mob</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <nav>
+                            <ul class="footer-navbar">
+                                <li><a href="#" class="footer-nav-item">Blog</a></li>
+                                <li><a href="#" class="footer-nav-item">News</a></li>
+                                <li><a href="#" class="footer-nav-item">Sitemap</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <nav>
+                            <ul class="footer-navbar">
+                                <li><a href="#" class="footer-nav-item">Terms</a></li>
+                                <li><a href="#" class="footer-nav-item">Privacy policy</a></li>
+                                <li><a href="#" class="footer-nav-item">Help</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="contact-field">
+                            <div class="footer-social-icons">
+                                <i class="fa-brands fa-facebook-f social-icon"></i>
+                                <i class="fa-brands fa-instagram social-icon"></i>
+                                <i class="fa-brands fa-linkedin-in social-icon"></i>
+                                <i class="fa-brands fa-twitter social-icon"></i>
+                            </div>
+                            <span class="contact-us">@Contact Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right-block">
+                <p class="copyright-text">&copy;2019 Copyright @Alias Mobes all rights reserved<i
+                        class="fa-solid fa-comment-dots chat-icon"></i></p>
+                <!-- <span class="chat-icon"><i class="fa-solid fa-comment-dots chat-icon"></i></span> -->
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
